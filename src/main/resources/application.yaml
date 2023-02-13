@@ -35,3 +35,15 @@ spring:
   sql:
     init:
       mode: always
+
+---
+# spring:
+#  config:
+#    activate:
+#      on-profile: testdb
+#  datasource:
+#    url: jdbc:h2:mem:board;mod=mysql
+#    driverClassName: org.h2.Driver
+#  sql.init.mode: always
+#  test.database.replace: none
+
